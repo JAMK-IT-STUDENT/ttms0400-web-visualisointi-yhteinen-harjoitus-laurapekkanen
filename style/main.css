@@ -86,7 +86,7 @@ article {
     }
         
     article {
-        width: 33,3%;
+        width: 33.3%;
     }
     
     header {
@@ -99,6 +99,6 @@ article {
     }
     
     main {
-        order 2; /* ei toimi? */
+        order: 2; /* ei toimi? */
     }
 }
