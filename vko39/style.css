@@ -17,12 +17,56 @@ body {
     flex-flow: wrap;
 }
 
+header, section, nav, main, article, footer, aside {
+    width:  100vw; 
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: #65b71d;
+    height: 60px;
+}
+
+.nav-img {
+    align-self: flex-start;
+}
+
+header {
+    background-color: #192538;
+    color: #fff;
+}
+
+main {
+    background-color: #80cdf7;
+}
+
+aside{
+    background-color: #4c1e89;
+    color: #fff;
+}
+
+article {
+    background-color: #dbd957;
+}
+
+section {
+    background-color: #f92739
+}
+
+footer {
+    background-color: #d66d31;
+}
+
 img {
     max-width: 100%;
 }
 
 nav img {
     width: 50px;
+    height: 50px;
+    display: inline;
 }
 
 ul li {
@@ -34,7 +78,9 @@ ul li a {
     color: #000;
 }
 
-/*big screens*/
+
+
+/*big screens*//*
 @media (min-width: 1080px){
     #wrap {
         margin: 10px;
@@ -63,9 +109,9 @@ ul li a {
     }
     
     
-}
+}*/
 
-/*medium screens*/
+/*medium screens*//*
 @media (max-width: 720px){
     #wrap {
         margin: 10px;
@@ -91,13 +137,11 @@ ul li a {
     footer {
         order: 2;
     }
-}
+}*/
 
 /*small screens*/
 @media (max-width: 480px){
-    img {
-        margin-bottom: 10px;
-    }
+    
     
     #wrap {
         margin: 10px;
@@ -105,44 +149,36 @@ ul li a {
     
     header {
         order: -2;
-        text-align: center;
-        margin: 10px 0;
     }
     
     nav {
         order: -1;
-        display: flex;
-        flex-flow: row wrap; /*MIKSI EI TOIMI?!?!??!?!*/
-        justify-content: flex-end;
+
+        padding: 5px;
     }
     
-    ul li {
-        display: inline-block;
+    nav ul {
+        font-size: 2em;
+        
+    }
+    
+    nav ul li {
+        display: inline;
+        justify-content: space-between;
+        
     }
     
     article {
         width: 100%;
-    }
-    
-    ul li {
-        
-}
-    
-    main {
-        margin: 10px 0;
     }
     
     aside {
         width: 100%;
     }
     
-    article {
-        margin: 10px 0;
-    }
-    
     footer {
         order: 1;
-        margin-top: 15px;
+        
         display: flex;
         flex-direction: row;
         justify-content: space-around;
