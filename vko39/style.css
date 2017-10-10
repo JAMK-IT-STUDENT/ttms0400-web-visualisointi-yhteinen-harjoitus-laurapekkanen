@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #efefef;
+}
+
+#wrap {
+    display: flex;
+    flex-flow: wrap;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav img {
+    width: 50px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*big screens*/
+@media (min-width: 1080px){
+    #wrap {
+        margin: 10px;
+    }
+    nav{
+         
+    }
+    
+    aside {
+        width: 200px;
+        order: 1;
+        display: inline;
+    }
+    section {
+        display: inline;
+        order: 1;
+    }
+    
+    article {
+        width: 50%;
+        padding: 15px;
+    }
+    
+    footer {
+        order: 2;
+    }
+    
+    
+}
+
+/*medium screens*/
+@media (max-width: 720px){
+    #wrap {
+        margin: 10px;
+    }
+    nav{
+         
+    }
+    
+    aside {
+        width: 200px;
+        order: 1;
+        display: inline;
+    }
+    section {
+        display: inline;
+        order: 1;
+    }
+    
+    article {
+        width: 50%;
+    }
+    
+    footer {
+        order: 2;
+    }
+}
+
+/*small screens*/
+@media (max-width: 480px){
+    img {
+        margin-bottom: 10px;
+    }
+    
+    #wrap {
+        margin: 10px;
+    }
+    
+    header {
+        order: -2;
+        text-align: center;
+        margin: 10px 0;
+    }
+    
+    nav {
+        order: -1;
+        display: flex;
+        flex-flow: row wrap; /*MIKSI EI TOIMI?!?!??!?!*/
+        justify-content: flex-end;
+    }
+    
+    ul li {
+        display: inline-block;
+    }
+    
+    article {
+        width: 100%;
+    }
+    
+    ul li {
+        
+}
+    
+    main {
+        margin: 10px 0;
+    }
+    
+    aside {
+        width: 100%;
+    }
+    
+    article {
+        margin: 10px 0;
+    }
+    
+    footer {
+        order: 1;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+}
