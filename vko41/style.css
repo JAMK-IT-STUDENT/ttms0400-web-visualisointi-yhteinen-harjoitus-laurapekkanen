@@ -149,10 +149,21 @@ img {
     
     nav {
         order: -1;
+        text-align: left;
+        display: inline;
+        padding: 0;
+        height: 200px;
     }
     
-    nav ul li {
+    na ul l i{
         display: inline;
-
+        width: 25%;
+        
+    }
+    
+    .nav-img {
+        display: inline;
+        padding: 0;
+        margin: 0;
     }
 }
