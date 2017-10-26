@@ -7,6 +7,7 @@
 body {
     font-family: 'PT Sans Narrow', sans-serif;
     background-color: #efefef;
+    max-width: 100%;
 }
 
 #wrap {
@@ -27,7 +28,7 @@ header, section, nav, main, article, footer, aside {
 
 nav {
     background-color: #65b71d;
-    height: 60px;
+    height: 50px;
 }
 
 nav img {
@@ -119,9 +120,6 @@ img {
     #wrap {
         margin: 10px;
     }
-    nav{
-         
-    }
     
     aside {
         order: 1;
@@ -130,10 +128,6 @@ img {
     section {
         display: inline;
         order: 1;
-    }
-    
-    article {
-        max-width: 50%;
     }
     
     footer {
@@ -144,10 +138,9 @@ img {
 /*small screens*/
 @media (max-width: 480px){
     
-    
     #wrap {
-        /*margin: 10px;*/
-        max-width: 100%;
+        margin: 0;
+        padding: 0;
     }
     
     header {
@@ -156,37 +149,10 @@ img {
     
     nav {
         order: -1;
-        padding: 5px;
-    }
-    
-    nav ul {
-        font-size: 2em;
-        
     }
     
     nav ul li {
         display: inline;
-        justify-content: space-between;
-        
+
     }
-    
-    article {
-        max-width: 100%;
-    }
-    
-    aside {
-        max-width: 100%;
-    }
-    
-    footer {
-        order: 1;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    
-    section {
-        max-width: 100%;
-    }
-    
 }
