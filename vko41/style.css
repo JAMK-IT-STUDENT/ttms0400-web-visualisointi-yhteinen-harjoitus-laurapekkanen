@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
     border: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 body {
@@ -15,12 +12,16 @@ body {
 #wrap {
     display: flex;
     flex-flow: wrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 header, section, nav, main, article, footer, aside {
     width:  100vw; 
     display: block;
-    padding: 15px;
+    /*padding: 15px;*/
     text-align: center;
 }
 
@@ -29,8 +30,19 @@ nav {
     height: 60px;
 }
 
-.nav-img {
-    align-self: flex-start;
+nav img {
+    width: 50px;
+    height: 50px;
+    display: inline;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
 }
 
 header {
@@ -63,40 +75,33 @@ img {
     max-width: 100%;
 }
 
-nav img {
-    width: 50px;
-    height: 50px;
-    display: inline;
-}
-
-ul li {
-    list-style-type: none;
-}
-
-ul li a {
-    text-decoration: none;
-    color: #000;
-}
-
-
-
-/*big screens*//*
+/*big screens*/
 @media (min-width: 1080px){
     #wrap {
-        margin: 10px;
+        margin: 0 auto;
+        width: 70%;
     }
-    nav{
-         
+    
+    header {
+        padding-bottom: 10px;
+    }
+    
+    main {
+        padding: 10px;
     }
     
     aside {
-        width: 200px;
+        width: 30%;
         order: 1;
         display: inline;
+        padding: 10px;
     }
+    
     section {
         display: inline;
         order: 1;
+        width: 70%;
+        padding: 10px;
     }
     
     article {
@@ -106,12 +111,10 @@ ul li a {
     
     footer {
         order: 2;
-    }
-    
-    
-}*/
+    } 
+}
 
-/*medium screens*//*
+/*medium screens*/
 @media (max-width: 720px){
     #wrap {
         margin: 10px;
@@ -121,7 +124,6 @@ ul li a {
     }
     
     aside {
-        width: 200px;
         order: 1;
         display: inline;
     }
@@ -131,20 +133,21 @@ ul li a {
     }
     
     article {
-        width: 50%;
+        max-width: 50%;
     }
     
     footer {
         order: 2;
     }
-}*/
+}
 
 /*small screens*/
 @media (max-width: 480px){
     
     
     #wrap {
-        margin: 10px;
+        /*margin: 10px;*/
+        max-width: 100%;
     }
     
     header {
@@ -153,7 +156,6 @@ ul li a {
     
     nav {
         order: -1;
-
         padding: 5px;
     }
     
@@ -169,19 +171,22 @@ ul li a {
     }
     
     article {
-        width: 100%;
+        max-width: 100%;
     }
     
     aside {
-        width: 100%;
+        max-width: 100%;
     }
     
     footer {
         order: 1;
-        
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
+    
+    section {
+        max-width: 100%;
     }
     
 }
