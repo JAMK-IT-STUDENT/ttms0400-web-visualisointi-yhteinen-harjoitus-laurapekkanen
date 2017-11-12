@@ -5,4 +5,4 @@ vko 45 vektori grafiikka
 Adidas logo
 ![Adidas logo](https://github.com/JAMK-IT-STUDENT/ttms0400-web-visualisointi-yhteinen-harjoitus-laurapekkanen/blob/master/adidas.svg)
 McDonalds logo
-![McDonalds logo](https://github.com/JAMK-IT-STUDENT/ttms0400-web-visualisointi-yhteinen-harjoitus-laurapekkanen/blob/master/mcdonalds.svg)
+![McDonalds logo](https://github.com/JAMK-IT-STUDENT/ttms0400-web-visualisointi-yhteinen-harjoitus-laurapekkanen/blob/master/mc.svg)
