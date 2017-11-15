@@ -2,7 +2,7 @@
 
 vko 39 responsiivinen sivu: https://github.com/JAMK-IT-STUDENT/ttms0400-web-visualisointi-yhteinen-harjoitus-laurapekkanen/tree/master/vko39<br/>
 vko 40 CSS-kirjasto/FW-harkka:<br/>
-Pure vaikuttaa kevyeltä ja helpolta asentaa ja käyttää. On myös responsiivinen.<br/>
+<b>Pure<b> vaikuttaa kevyeltä ja helpolta asentaa ja käyttää. On myös responsiivinen.<br/>
 Bootstrap varmaankin yksi tunnetuimmista. Responsiivinen ja löytyy hyvin tukea netistä.<br/>
 Foundation lupaa samaa kuin muutkin. Responsiivinen, muokattavissa ja ilmeisesti suosittu. Ainakin isot yritykset käyttävät.<br/>
 Materialize on myös responsiivinen ja tarjoaa valmiita teemoja.<br/>
