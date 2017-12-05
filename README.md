@@ -1,5 +1,6 @@
 # ttms0400-web-visualisointi-yhteinen-harjoitus-laurapekkanen
 
+<b>vko 37 tutoriaali:</b>https://github.com/JAMK-IT-STUDENT/ttms0400-web-visualisointi-yhteinen-harjoitus-laurapekkanen/blob/master/index.html<br/>
 <b>vko 39 responsiivinen sivu:</b> https://github.com/JAMK-IT-STUDENT/ttms0400-web-visualisointi-yhteinen-harjoitus-laurapekkanen/tree/master/vko39<br/>
 <b>vko 40 CSS-kirjasto/FW-harkka:</b><br/>
 <i>Pure</i> vaikuttaa kevyeltä ja helpolta asentaa ja käyttää. On myös responsiivinen.<br/>
