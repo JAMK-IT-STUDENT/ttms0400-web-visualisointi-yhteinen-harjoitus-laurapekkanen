@@ -15,4 +15,5 @@ Vaihtoehtoja on ainakin paljon harkkatyön toteuttamiseen. Ajattelin hyödyntä�
 <i>Adidas logo</i><br/>
 ![Adidas logo](https://github.com/JAMK-IT-STUDENT/ttms0400-web-visualisointi-yhteinen-harjoitus-laurapekkanen/blob/master/adidas.svg)<br/>
 <i>McDonalds logo</i><br/>
-![McDonalds logo](https://github.com/JAMK-IT-STUDENT/ttms0400-web-visualisointi-yhteinen-harjoitus-laurapekkanen/blob/master/mc.svg)
+![McDonalds logo](https://github.com/JAMK-IT-STUDENT/ttms0400-web-visualisointi-yhteinen-harjoitus-laurapekkanen/blob/master/mc.svg)<br/>
+Harjoitustyö: https://laurapekkanen.github.io/harkka/
