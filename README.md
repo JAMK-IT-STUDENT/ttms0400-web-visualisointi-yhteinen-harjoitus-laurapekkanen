@@ -12,6 +12,7 @@ Vaihtoehtoja on ainakin paljon harkkatyön toteuttamiseen. Ajattelin hyödyntä�
 <b>w-41-1 bootstrap:</b> https://jamk-it-student.github.io/ttms0400-web-visualisointi-yhteinen-harjoitus-laurapekkanen/vko41/<br/>
 <b>w-41-2 bootstrap teeman käyttöönotto:</b> https://jamk-it-student.github.io/ttms0400-web-visualisointi-yhteinen-harjoitus-laurapekkanen/vko41/<br/>
 <b>w-44-1 css animointi:</b> https://codepen.io/laurapekkanen/pen/KyvOoK?editors=1100#0<br/>
+<b>w-44-2 css keyframes:</b> https://codepen.io/laurapekkanen/pen/KyvOoK?editors=1100#0<br/>
 <b>w-45 vektori grafiikka:</b><br/>
 <i>Adidas logo</i><br/>
 ![Adidas logo](https://github.com/JAMK-IT-STUDENT/ttms0400-web-visualisointi-yhteinen-harjoitus-laurapekkanen/blob/master/adidas.svg)<br/>
